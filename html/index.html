@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html LANG="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBox</title>
+    <link rel="stylesheet" href="../styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+
+    <div class="overall-container">
+      <div id='registrationDiv' class="registration-box container column">
+        <input type='text' placeholder='Username' class="registration" id='registrationInput'>
+        <button type='button' class="registration button" id="register_button" > connect as</button>
+      </div>
+
+
+      <div id= 'rulesDiv' class="rules-box container column"></div>
+
+      <div id='messages' class="message-box column hidden"></div>
+
+      <div id="send-box" class="send-box row hidden">
+        <input type='text' placeholder='Send a message' id='msgInput'>
+        <button type='button' class="button" id="send_button" value='Send'> 
+          <i class="fa fa-paper-plane" aria-hidden="true"></i>
+        </button>
+        <button type='button'  class="button" id="delete_button" value='Del' > Del </button>
+        <button type='button'  class="button" id="clear_button" value='Clear' > 
+          <i class="fa fa-trash" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="functions.js"></script>
+    <script src="eventListeners.js"></script>
+    <script src='chatBox.js'></script>
+  </body>
+</html>
