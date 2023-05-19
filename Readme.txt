@@ -25,5 +25,9 @@ Additional Information
 	For example, in a group containing Joe, James, Jamie, Jane and Jack , if Jack wants to send a private message to Joe and Jane , they
 	they will send the following message;
 		Joe, Jane : [CONTENT OF THE MESSAGE]
+		
+	For messages for all members of the chat, there is no need to have a list of recepients before the message.
+	
+	In the special scenario where the user wants to send a public message that contains a colom, send the message with a colon at the beginning
 
 	
