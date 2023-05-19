@@ -28,6 +28,6 @@ Additional Information
 		
 	For messages for all members of the chat, there is no need to have a list of recepients before the message.
 	
-	In the special scenario where the user wants to send a public message that contains a colom, send the message with a colon at the beginning
+	In the special scenario where the user wants to send a public message that contains a colom, send the message with a colon at the beginning.
 
 	
